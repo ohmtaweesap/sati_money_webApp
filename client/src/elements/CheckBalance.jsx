@@ -49,7 +49,7 @@ function CheckBalance(){
                                     <h3 className='text-center'>ไม่พบข้อมูล</h3>
                                 </div>
                                 <div>
-                                    <p className ='text-danger text-center'>รบกวนตรวจสอบ เลขบัตรประชาชน และ เบอร์โทรศัพย์ อีกครั้ง</p>
+                                    <p className ='text-danger text-center'>รบกวนตรวจสอบ เลขบัตรประชาชน และ เบอร์โทรศัพท์ อีกครั้ง</p>
                                 </div>
                                 <div className="mt-3 text-center">
                                     <Link to=".." relative="path">

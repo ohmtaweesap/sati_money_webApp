@@ -22,6 +22,11 @@ const db =  mysql.createConnection({
     database : process.env.DB_NAME
 });
 
+db.connect(function(err) {
+    if (err) throw err;
+    console.log("Connected!");
+  });
+
 const corsOptions = {
     origin: 'http://satidhamma.trueddns.com:32980',
     optionsSuccessStatus: 200

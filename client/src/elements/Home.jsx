@@ -51,7 +51,7 @@ function Home() {
                                 {errors.thaiId && <span className='text-danger'>{errors.thaiId}</span>}
                             </div>
                             <div className="mb-3">
-                                <label htmlFor="telNo" className="form-label">เบอร์โทรศัพย์ ที่ให้ไว้กับทางร้าน</label>
+                                <label htmlFor="telNo" className="form-label">เบอร์โทรศัพท์ ที่ให้ไว้กับทางร้าน</label>
                                 <input type="text" onChange={handleInput} name="telNo" className="form-control" id="telNo"/>
                                 {errors.telNo && <span className='text-danger'>{errors.telNo}</span>}
                             </div>
